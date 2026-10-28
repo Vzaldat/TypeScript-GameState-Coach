@@ -1,0 +1,26 @@
+[
+  {
+    "name": "CS2 CT eco round",
+    "game": "CS2",
+    "map": "Mirage",
+    "side": "CT",
+    "observation": "Round 4. We lost two rounds; I have $2,400 and a smoke. Three teammates are saving.",
+    "checks": ["CT", "economy", "eco", "bomb", "utility", "team"]
+  },
+  {
+    "name": "Dota 2 lane state",
+    "game": "Dota 2",
+    "map": "safe lane",
+    "side": "Crystal Maiden",
+    "observation": "Low on mana with two enemy heroes missing from the minimap; an enemy tower is nearby.",
+    "checks": ["minimap", "mana", "missing heroes", "tower", "retreat", "cooldown"]
+  },
+  {
+    "name": "unknown game fallback",
+    "game": "Example Arena",
+    "map": "",
+    "side": "",
+    "observation": "I am alone near an objective and see two opponents approaching.",
+    "checks": ["objective", "cover", "threats", "do not invent"]
+  }
+]
